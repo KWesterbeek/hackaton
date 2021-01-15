@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Wingspan - Vragen & Feedback</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Wingspan</h1>
+
+    </header>
+
+    <nav>
+        <div class="menu">
+            <button class="menubtn">
+                Menu
+            </button>
+            <div class="dropdown-menu">
+                <a href="index.html">Wat is Wingspan?</a>
+                <a href="howto.html">Hoe speel je Wingspan?</a>
+                <a href="expansions.html">Uitbreidingen</a>
+                <a href="feedback.html">Vragen en feedback</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+
+        <section>
+            <h2>Vragen & Feedback </h2>
+            <p>Als je mij een vraag wilt stellen over de site of over Wingspan of als je feedback hebt over de site, kan
+                je
+                met onderstaand formulier contact met me opnemen.</p>
+        </section>
+
+        <form name="feedback" method="POST" data-netlify="true">
+            <label for="name">Naam:</label>
+            <input type="text" id="name" name="name" />
+            <label for="email">E-mailadres:</label>
+            <input type="email" id="email" name="email" />
+            <label for="age">Leeftijd:</label>
+            <input type="number" id="age" name="age" min="1" max="130" />
+            <br>
+            <p>Welke Wingspan versies heb je in huis?</p>
+            <label for="wingspan"><input type="checkbox" id="wingspan" name="wingspan" value="wingspan">
+                Wingspan</label>
+            <label for="euro"><input type="checkbox" id="euro" name="euro" value="euro"> Wingspan uitbreiding:
+                Europa</label>
+            <label for="ocean"><input type="checkbox" id="ocean" name="ocean" value="ocean"> Wingspan uitbreiding:
+                Oceanië</label>
+            <label for="monster"><input type="checkbox" id="monster" name="monster" value="monster"> Wingspan by Monster
+                Couch</label>
+            <label for="tabletopia"><input type="checkbox" id="tabletopia" name="tabletopia" value="tabletopia">
+                Wingspan on Tabletopia</label>
+            <label for="tabletopsim"><input type="checkbox" id="tabletopsim" name="tabletopsim" value="tabletopsim">
+                Wingspan on Tabletop Simulator</label>
+            <label for="none"><input type="checkbox" id="none" name="none" value="none"> None</label>
+            <br>
+            <label for="boxcolor">Als er een nieuwe uitbreiding voor Wingspan komt, welke kleur vind jij dat de doos
+                dan moet worden?</label>
+            <input type="color" id="boxcolor" name="boxcolor">
+            <br>
+            <p>Heb je een vraag of feedback?</p>
+            <label for="question"><input type="radio" id="question" name="qorf" value="question"> Vraag</label>
+            <label for="feedback"><input type="radio" id="feedback" name="qorf" value="feedback"> Feedback</label>
+            <label for="message">Stel hier je vraag of geef je feedback:</label>
+            <textarea rows="6" id="message" name="message"></textarea>
+            <br>
+            <label for="how">Hoe ben je op deze website terecht gekomen?</label>
+            <select id="how" name="how">
+                <option value="searchengine">Zoekmachine, zoals Google, Bing of DuckDuckGo</option>
+                <option value="winc">WincAcademy</option>
+                <option value="ad">Advertentie</option>
+                <option value="via">Aangeraden door iemand</option>
+                <option value="other">Anders</option>
+            </select>
+            <br>
+            <p><button type="submit">Verzend!</button></p>
+        </form>
+    </main>
+
+    <aside>
+        <section>
+            <h3>Voor meer informatie kijk ook eens op de volgende sites:</h3>
+            <ul class="links">
+                <li><a href="https://en.wikipedia.org/wiki/Wingspan_(board_game)#cite_note-New_York_Times-3"
+                        target="_blank">Wingspan op Wikipedia</a></li>
+                <li><a href="https://www.boardgamegeek.com/boardgame/266192/wingspan" target="_blank">Wingspan op
+                        Boardgamegeek</a></li>
+                <li><a href="https://store.steampowered.com/app/1054490/Wingspan/" target="_blank">Wingspan AI op
+                        Steam</a>
+                </li>
+                <li><a href="https://store.steampowered.com/app/988180/Tabletopia__Wingspan/" target="_blank">Tabletopia
+                        Wingspan op
+                        Steam</a></li>
+                <li><a href="https://store.steampowered.com/app/610703/Tabletop_Simulator__Wingspan/"
+                        target="_blank">Tabletop Simulator
+                        Wingspan op Steam</a></li>
+                <li><a href="https://www.nytimes.com/2019/03/11/science/wingspan-board-game-elizabeth-hargrave.html"
+                        target="_blank">Wingspan
+                        review in the NY Times</a></li>
+            </ul>
+        </section>
+    </aside>
+
+    <footer>
+        <p>For the official webpage: <a href="https://stonemaiergames.com/games/wingspan/" target="_blank">click
+                here</a>.</p>
+    </footer>
+
+</body>
+
+</html>
